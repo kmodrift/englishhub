@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EnglishHub - Контакты</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body class="d-flex flex-column min-vh-100 bg-white text-dark" style="font-family: system-ui, -apple-system, sans-serif;">
+
+    <!-- Меню -->
+    <nav id="mainNav" class="navbar navbar-expand-lg sticky-top py-3 border-bottom border-light" style="background-color: rgba(255, 255, 255, 0.98); backdrop-filter: blur(10px);">
+        <div class="container">
+            <!-- Brand -->
+            <a class="navbar-brand d-flex align-items-center gap-2 fw-bold text-dark fs-4" href="index.html">
+                <div class="position-relative" style="width: 24px; height: 32px;">
+                    <div class="position-absolute bg-success" style="top: 4px; left: 0; width: 16px; height: 20px; border-radius: 100px; border-top-right-radius: 0;"></div>
+                    <div class="position-absolute bg-primary" style="bottom: 0; right: 0; width: 20px; height: 24px; border-radius: 100px; border-top-left-radius: 0;"></div>
+                </div>
+                EnglishHub
+            </a>
+            
+            <!-- Mobile Toggle -->
+            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Nav Links -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav gap-3 mt-3 mt-lg-0 fw-medium">
+                    <li class="nav-item"><a class="nav-link text-secondary" href="index.html">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link text-secondary" href="about.html">О центре</a></li>
+                    <li class="nav-item"><a class="nav-link text-secondary" href="courses.html">Курсы</a></li>
+                    <li class="nav-item"><a class="nav-link text-secondary" href="teachers.html">Преподаватели</a></li>
+                    <li class="nav-item"><a class="nav-link text-secondary" href="prices.html">Цены</a></li>
+                    <li class="nav-item"><a class="nav-link text-secondary" href="faq.html">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link text-secondary active" href="contact.html">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Основной контент -->
+    <main class="flex-grow-1">
+        <div class="py-5" style="background-color: #fafafa; min-height: 80vh;">
+            <div class="container py-4">
+                <div class="row g-5">
+                    <!-- Form -->
+                    <div class="col-md-6">
+                        <h1 class="fw-bold mb-3">Запись на пробный урок</h1>
+                        <p class="text-secondary mb-5">Оставьте заявку, и администратор свяжется с вами для выбора удобного времени.</p>
+                        
+                        <form onsubmit="event.preventDefault();">
+                            <div class="mb-4">
+                                <label class="form-label small fw-bold">ФИО</label>
+                                <input type="text" class="form-control form-control-lg fs-6 rounded-3" required>
+                            </div>
+                            <div class="mb-4">
+                                <label class="form-label small fw-bold">Телефон</label>
+                                <input type="tel" class="form-control form-control-lg fs-6 rounded-3" required>
+                            </div>
+                            <div class="mb-4">
+                                <label class="form-label small fw-bold">Email</label>
+                                <input type="email" class="form-control form-control-lg fs-6 rounded-3" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary px-4 py-2 mt-2 rounded-3 text-white fw-medium border-0" style="background-color: #3b82f6;">Отправить заявку</button>
+                        </form>
+                    </div>
+
+                    <!-- Contact info & map -->
+                    <div class="col-md-6 mt-5 mt-md-0 pt-md-2">
+                        <h2 class="fw-bold mb-4">Контакты</h2>
+                        <div class="text-secondary mb-4 d-flex flex-column gap-2">
+                            <div>Адрес: 12 мкр. ул. Ленина г. Таганрог</div>
+                            <div>Телефон: +7(902)347-99-22</div>
+                            <div>Электронная почта: info@englishhub.ru</div>
+                            <div>Пн–Пт: 10:00–20:00, Сб: 11:00–16:00</div>
+                        </div>
+
+                        <!-- Yandex Map -->
+                        <div id="map" class="rounded-4 overflow-hidden shadow-sm border mt-4" style="height: 250px; background: #e2e8f0; width: 100%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-5" style="background-color: #242b35; color: #cbd5e1;">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="d-flex align-items-center gap-2 fw-bold fs-5 text-white mb-3">
+                        <div class="position-relative" style="width: 24px; height: 32px; transform: scale(0.8); transform-origin: left;">
+                            <div class="position-absolute" style="background-color: #4ade80; top: 4px; left: 0; width: 16px; height: 20px; border-radius: 100px; border-top-right-radius: 0;"></div>
+                            <div class="position-absolute" style="background-color: #60a5fa; bottom: 0; right: 0; width: 20px; height: 24px; border-radius: 100px; border-top-left-radius: 0;"></div>
+                        </div>
+                        EnglishHub
+                    </div>
+                    <p class="small opacity-75">Современные образовательные технологии</p>
+                </div>
+                
+                <div class="col-md-3">
+                    <h5 class="text-white fw-bold mb-4 fs-6">Меню</h5>
+                    <ul class="list-unstyled d-flex flex-column gap-2 small">
+                        <li><a href="about.html" class="text-decoration-none" style="color: inherit;">О центре</a></li>
+                        <li><a href="courses.html" class="text-decoration-none" style="color: inherit;">Курсы</a></li>
+                        <li><a href="teachers.html" class="text-decoration-none" style="color: inherit;">Преподаватели</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-md-2">
+                    <h5 class="text-white fw-bold mb-4 fs-6">Поддержка</h5>
+                    <ul class="list-unstyled d-flex flex-column gap-2 small">
+                        <li><a href="faq.html" class="text-decoration-none" style="color: inherit;">FAQ</a></li>
+                        <li><a href="#" class="text-decoration-none" style="color: inherit;">Политика конфиденциальности</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-md-3">
+                    <h5 class="text-white fw-bold mb-4 fs-6">Связь</h5>
+                    <ul class="list-unstyled d-flex flex-column gap-2 small opacity-75">
+                        <li>Адрес: 12 мкр. ул Ленина г. Таганрог</li>
+                        <li>Телефон: +7(902)347-99-22</li>
+                        <li>Электронная почта: info@englishhub.ru</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Yandex Maps API -->
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+
+    <!-- Bootstrap Bundle with Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- JS Logic -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Инициализация Яндекс Карты
+            ymaps.ready(function () {
+                var myMap = new ymaps.Map("map", {
+                    center: [47.2185, 38.9221], // Координаты г. Таганрог
+                    zoom: 16
+                });
+
+                var myPlacemark = new ymaps.Placemark([47.2185, 38.9221], {
+                    hintContent: 'English Hub',
+                    balloonContent: 'English Hub, ул. Ленина, 12'
+                }, {
+                    preset: 'islands#blueEducationIcon'
+                });
+
+                myMap.geoObjects.add(myPlacemark);
+            });
+
+            // Закрытие мобильного меню при клике на ссылку
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.addEventListener('click', () => {
+                    const navbarCollapse = document.getElementById('navbarNav');
+                    if (navbarCollapse.classList.contains('show')) {
+                        bootstrap.Collapse.getInstance(navbarCollapse).hide();
+                    }
+                });
+            });
+
+            // Эффекты для ссылок в футере
+            const footerLinks = document.querySelectorAll('footer a');
+            footerLinks.forEach(link => {
+                link.addEventListener('mouseenter', () => link.style.color = 'white');
+                link.addEventListener('mouseleave', () => link.style.color = '#cbd5e1');
+            });
+        });
+    </script>
+</body>
+</html>

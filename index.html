@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EnglishHub - Главная</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<style>
+    .hero-gif-bg {
+        position: relative;
+        background-image: linear-gradient(rgba(250, 250, 250, 0.88), rgba(250, 250, 250, 0.88)), url('img/ezgif-7bfe529d28996aa5.gif');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .hero-photo-container {
+    position: relative;
+    width: 280px; /* Размер круга с фото */
+    height: 280px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 8px solid white; /* Белая обводка вокруг фото */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.hero-photo-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+</style>
+
+<body class="d-flex flex-column min-vh-100 bg-white text-dark" style="font-family: system-ui, -apple-system, sans-serif;">
+
+    <nav class="navbar navbar-expand-lg sticky-top py-3 border-bottom border-light" style="background-color: rgba(255, 255, 255, 0.98); backdrop-filter: blur(10px);">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2 fw-bold text-dark fs-4" href="index.html">
+                <div class="position-relative" style="width: 24px; height: 32px;">
+                    <div class="position-absolute bg-success" style="top: 4px; left: 0; width: 16px; height: 20px; border-radius: 100px; border-top-right-radius: 0;"></div>
+                    <div class="position-absolute bg-primary" style="bottom: 0; right: 0; width: 20px; height: 24px; border-radius: 100px; border-top-left-radius: 0;"></div>
+                </div>
+                EnglishHub
+            </a>
+            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav gap-3 mt-3 mt-lg-0 fw-medium">
+                    <li class="nav-item"><a class="nav-link text-secondary active" href="index.html">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link text-secondary" href="about.html">О центре</a></li>
+                    <li class="nav-item"><a class="nav-link text-secondary" href="courses.html">Курсы</a></li>
+                    <li class="nav-item"><a class="nav-link text-secondary" href="teachers.html">Преподаватели</a></li>
+                    <li class="nav-item"><a class="nav-link text-secondary" href="prices.html">Цены</a></li>
+                    <li class="nav-item"><a class="nav-link text-secondary" href="faq.html">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link text-secondary" href="contact.html">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<section class="py-5 hero-gif-bg">
+    <div class="container py-md-5">
+        <div class="row align-items-center">
+            <div class="col-md-6 mb-5 mb-md-0" style="z-index: 2;">
+                <h1 class="display-4 fw-bold mb-4">Начни свой английский<br>с чистого листа!</h1>
+                <p class="fs-5 text-dark mb-3">Hi there! Добро пожаловать в языковое пространство EnglishHub!</p>
+                <p class="fs-5 text-dark mb-4">Здесь мы не зазубриваем правила, а учимся общаться и приобретаем новые навыки!</p>
+                <a class="btn btn-primary px-4 py-2 rounded-3 text-white fw-medium text-decoration-none d-inline-block" style="background-color: #3b82f6; border: none;" href="about.html">Узнать подробнее...</a>
+            </div>
+            
+            <div class="col-md-6" style="z-index: 2;">
+<div class="position-relative mx-auto" style="height: 450px; width: 100%; max-width: 500px;">
+    
+    <div class="position-absolute" style="top: 0; left: 10%; background-color: #f46b6b; width: 200px; height: 200px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+        <div class="hero-photo-container" style="width: 180px; height: 180px;">
+            <img src="img/young-university-graduate-isolated-white-background-giving-thumbs-up-gesture_1368-266056.avif" alt="Преподаватель">
+        </div>
+    </div>
+
+    <div class="position-absolute" style="top: 20px; right: 0; background-color: #69a0fb; width: 220px; height: 220px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+        <div class="hero-photo-container" style="width: 200px; height: 200px;">
+            <img src="img/360_F_217010165_OkGOCDqR4uHSKoFVUdZk7ghre2vSpTG3.jpg" alt="Преподаватель" style="object-position: 40% 20%;">
+        </div>
+    </div>
+
+    <div class="position-absolute" style="bottom: 0; left: 30%; background-color: #eed128; width: 220px; height: 220px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+        <div class="hero-photo-container" style="width: 200px; height: 200px;">
+            <img src="img/smiling-young-woman-with-books-backpack-standing-white-background_662251-2913.avif" alt="Преподаватель" >
+        </div>
+    </div>
+</div>
+</section>
+
+        <section class="py-5 border-bottom bg-white">
+            <div class="container">
+                <div class="row text-center g-4">
+                    <div class="col-6 col-md-3 border-end">
+                        <div class="fs-1 fw-bold">2250+</div>
+                        <div class="text-secondary small">Успешно сдали ОГЭ / ЕГЭ</div>
+                    </div>
+                    <div class="col-6 col-md-3 border-end">
+                        <div class="fs-1 fw-bold">5000+</div>
+                        <div class="text-secondary small">Приобрели себе новый навык</div>
+                    </div>
+                    <div class="col-6 col-md-3 border-end">
+                        <div class="fs-1 fw-bold">115+</div>
+                        <div class="text-secondary small">Сдали международные экзамены</div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="fs-1 fw-bold">4400+</div>
+                        <div class="text-secondary small">Дети получили базовые знания<br>к английскому языку</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<section class="py-5" style="background-color: #fafafa;">
+    <div class="container py-4">
+        <h2 class="text-center fw-bold mb-5">Наши преподаватели</h2>
+        <div class="row g-4">
+            <div class="col-sm-6 col-md-3">
+                <div class="bg-white border rounded-4 shadow-sm p-4 text-center d-flex flex-column align-items-center h-100">
+                    <!-- Елена -->
+                    <img src="img/40e751ade37930190d73447819048bd8.jpg" alt="Елена Анатольевна" class="border rounded-4 mb-3 object-fit-cover" style="width: 100px; height: 100px; object-position: 40% 30%;">
+                    <h5 class="fw-bold mb-1">Елена Анатольевна</h5>
+                    <p class="small text-secondary mb-0">IELTS/ЕГЭ</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="bg-white border rounded-4 shadow-sm p-4 text-center d-flex flex-column align-items-center h-100">
+                    <!-- Егор -->
+                    <img src="img/10e935d2bfedb729f4153c46997e48c0.jpg" alt="Егор Николаевич" class="border rounded-4 mb-3 object-fit-cover" style="width: 100px; height: 100px; object-position: 40% 30%;">
+                    <h5 class="fw-bold mb-1">Егор Николаевич</h5>
+                    <p class="small text-secondary mb-0">TOEFL/Академический английский</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="bg-white border rounded-4 shadow-sm p-4 text-center d-flex flex-column align-items-center h-100">
+                    <!-- Роман -->
+                    <img src="img/b5cef6a50c84d8cc64673f6ed23901a3.jpg" alt="Роман Сабелькин" class="border rounded-4 mb-3 object-fit-cover" style="width: 100px; height: 100px; object-position: top;">
+                    <h5 class="fw-bold mb-1">Роман Сабелькин</h5>
+                    <p class="small text-secondary mb-0">ОГЭ/Разговорная практика</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="bg-white border rounded-4 shadow-sm p-4 text-center d-flex flex-column align-items-center h-100">
+                    <!-- Ирина -->
+                    <img src="img/ef972507d073f998e8091814528e86d1.jpg" alt="Ирина Николаевна" class="border rounded-4 mb-3 object-fit-cover" style="width: 100px; height: 100px; object-position: top;">
+                    <h5 class="fw-bold mb-1">Ирина Николаевна</h5>
+                    <p class="small text-secondary mb-0">Business/Онлайн</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section class="py-5 pb-md-5 mb-5" style="background-color: #fafafa;">
+            <div class="container py-4">
+                <h2 class="fw-bold mb-5 col-md-4">Что говорят наши клиенты</h2>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="bg-white border rounded-4 shadow-sm p-4 p-md-5 h-100">
+                            <div class="d-flex align-items-center gap-3 mb-4">
+                                <!-- Матвей -->
+                                <img src="img/24c283ce50019c0562bee8bacb73b077.jpg" alt="Матвей" class="rounded-circle object-fit-cover border" style="width: 48px; height: 48px; object-position: top;">
+                                <div class="fw-bold fs-5">Матвей</div>
+                            </div>
+                            <i class="bi bi-quote fs-1 text-primary mb-3 d-block opacity-75"></i>
+                            <p class="text-dark small lh-lg mb-0">
+                                Долго искал место, где английский перестаёт быть "зубрёжкой правил". Здесь подача материала построена так, что грамматика запоминается через живые диалоги и реальные ситуации. За три месяца подтянул уровень с Pre-Intermediate до уверенного Intermediate, начал смотреть сериалы в оригинале без субтитров (почти). Отдельное спасибо за разговорные клубы — наконец-то переборол языковой барьер. Лучшее вложение в саморазвитие за последний год! 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="bg-white border rounded-4 shadow-sm p-4 p-md-5 h-100">
+                            <div class="d-flex align-items-center gap-3 mb-4">
+                                <!-- Диана -->
+                                <img src="img/40c761ba6cf9abb3121ae64c4ebbbaea.jpg" alt="Диана" class="rounded-circle object-fit-cover border" style="width: 48px; height: 48px; object-position: top;">
+                                <div class="fw-bold fs-5">Диана</div>
+                            </div>
+                            <i class="bi bi-quote fs-1 text-primary mb-3 d-block opacity-75"></i>
+                            <p class="text-dark small lh-lg mb-0">
+                                Готовилась здесь к ЕГЭ с сентября по май. Исходный уровень был где-то на твердую "4" и в школе, но я боялась, что на экзамене провалюсь из-за эссе и устной части. Преподаватель объяснил структуру так, что она разложилась по полочкам: четкие клише, алгоритмы для аудирования, лайфхаки для чтения. Отдельное спасибо за устную часть — в группе мы по 100 раз проговаривали все задания под таймер. В итоге — 92 балла. Для меня, кто не ходил к репетиторам 11 лет, это победа. Этим ребятам можно доверять реальные экзамены. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-5" style="background-color: #242b35; color: #cbd5e1;">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="d-flex align-items-center gap-2 fw-bold fs-5 text-white mb-3">
+                        <div class="position-relative" style="width: 24px; height: 32px; transform: scale(0.8); transform-origin: left;">
+                            <div class="position-absolute" style="background-color: #4ade80; top: 4px; left: 0; width: 16px; height: 20px; border-radius: 100px; border-top-right-radius: 0;"></div>
+                            <div class="position-absolute" style="background-color: #60a5fa; bottom: 0; right: 0; width: 20px; height: 24px; border-radius: 100px; border-top-left-radius: 0;"></div>
+                        </div>
+                        EnglishHub
+                    </div>
+                    <p class="small opacity-75">Современные образовательные технологии</p>
+                </div>
+                
+                <div class="col-md-3">
+                    <h5 class="text-white fw-bold mb-4 fs-6">Меню</h5>
+                    <ul class="list-unstyled d-flex flex-column gap-2 small">
+                        <li><a href="about.html" class="text-decoration-none" style="color: inherit;">О центре</a></li>
+                        <li><a href="courses.html" class="text-decoration-none" style="color: inherit;">Курсы</a></li>
+                        <li><a href="teachers.html" class="text-decoration-none" style="color: inherit;">Преподаватели</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-md-2">
+                    <h5 class="text-white fw-bold mb-4 fs-6">Поддержка</h5>
+                    <ul class="list-unstyled d-flex flex-column gap-2 small">
+                        <li><a href="faq.html" class="text-decoration-none" style="color: inherit;">FAQ</a></li>
+                        <li><a href="#" class="text-decoration-none" style="color: inherit;">Политика конфиденциальности</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-md-3">
+                    <h5 class="text-white fw-bold mb-4 fs-6">Связь</h5>
+                    <ul class="list-unstyled d-flex flex-column gap-2 small opacity-75">
+                        <li>Адрес: 12 мкр. ул Ленина г. Таганрог</li>
+                        <li>Телефон: +7(902)347-99-22</li>
+                        <li>Электронная почта: info@englishhub.ru</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
